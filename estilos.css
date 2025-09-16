@@ -1,0 +1,52 @@
+/* 
+  Actividad: Mejora de la Interacción y Estilo con Selectores CSS
+  Instrucciones: Modifica este archivo aplicando los siguientes objetivos usando selectores CSS adecuados.
+*/
+
+/* 1. Estilo base para los enlaces (puedes modificar esto) */
+a {
+  /* Ejemplo: padding, color, fondo, etc. */
+}
+
+/* 2. Estilo al recibir foco (:focus) */
+/* Objetivo: Añadir un borde o fondo diferente cuando un enlace recibe foco */
+
+a:focus {
+  /* tu código aquí */
+}
+
+/* 3. Resaltar el primer y último enlace (:first-child y :last-child) */
+/* Objetivo: Cambiar el fondo o color para diferenciarlos */
+
+li:first-child a {
+  /* tu código aquí */
+}
+
+li:last-child a {
+  /* tu código aquí */
+}
+
+/* 4. Efecto al pasar el mouse (:hover + ::after) */
+/* Objetivo: Agregar un ícono o texto extra al pasar el ratón sobre un enlace */
+
+a:hover::after {
+  /* tu código aquí */
+}
+
+/* 5. Estilizar la primera letra de cada enlace (::first-letter) */
+/* Objetivo: Aplicar un estilo visual llamativo a la primera letra */
+
+a::first-letter {
+  /* tu código aquí */
+}
+
+/* 6. Estilos alternados con :nth-child() */
+/* Objetivo: Cambiar estilos de enlaces en posiciones impares y pares */
+
+li:nth-child(odd) a {
+  /* tu código aquí */
+}
+
+li:nth-child(even) a {
+  /* tu código aquí */
+}
